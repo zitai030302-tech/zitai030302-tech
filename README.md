@@ -1,6 +1,6 @@
 # Hi, I'm Zitai Li
 
-我正在准备互联网算法相关实习，关注 **machine learning systems, data-driven modeling, recommender/search algorithms, and algorithm engineering**。
+我正在准备互联网公司算法相关实习，关注 **machine learning systems, data-driven modeling, recommender/search algorithms, and algorithm engineering**。
 
 I like building projects where models are connected with real data, reproducible evaluation, and usable engineering workflows.
 
@@ -50,4 +50,3 @@ An end-to-end recommendation project covering retrieval, ranking, offline evalua
 ## Contact
 
 - GitHub: [@zitai030302-tech](https://github.com/zitai030302-tech)
-
