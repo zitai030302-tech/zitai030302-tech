@@ -1,52 +1,39 @@
-# Hi, I'm Zitai Li
+# Zitai Li
 
-我正在准备互联网公司算法相关实习，关注 **machine learning systems, data-driven modeling, recommender/search algorithms, and algorithm engineering**。
+M.S. student in Integrated Circuit Science and Engineering at Beijing Institute of Technology.
 
-I like building projects where models are connected with real data, reproducible evaluation, and usable engineering workflows.
+I am interested in software and algorithms that work with real data and constrained systems. My recent work spans quantitative research tooling, biomedical machine learning, multicore NPU scheduling, and research workflow software.
 
-## Focus
-
-- **Machine Learning:** feature engineering, regression/classification, model evaluation, cross-validation, leakage checks
-- **Recommendation / Search:** retrieval, ranking, offline metrics, candidate generation, lightweight serving
-- **Algorithm Engineering:** backtesting, risk control, data pipelines, experiment runners, dashboards, tests
-- **Research Reproduction:** reading papers, modernizing legacy code, validating metrics, documenting assumptions
-
-## Featured Projects
+## Selected projects
 
 ### [QuantDesk](https://github.com/zitai030302-tech/quantdesk)
 
-Event-driven crypto strategy research sandbox with backtesting, paper trading, risk control, SQLite persistence, and dashboard monitoring.
+An event-driven sandbox for quantitative strategy research.
 
-- Built a modular runtime covering market data ingestion, strategy execution, paper trading, risk control, persistence, and dashboards.
-- Implemented strategy registry, technical indicators, backtesting metrics, order validation, and Freqtrade-style CLI compatibility.
-- Added unit and integration tests for trading flow, risk rules, REST clients, order validators, strategy behavior, and dashboard logic.
+- Backtesting, paper trading, risk control, SQLite persistence, and market-data adapters
+- Strategy registry and reproducible experiment workflow
+- Unit and integration tests for trading flow, risk rules, order validation, and data clients
 
-**Tech:** Python, pandas, SQLite, WebSocket, pytest
+**Python · pandas · SQLite · WebSocket · pytest**
 
 ### [Graphene BP Reproduction](https://github.com/zitai030302-tech/graphene-bp-reproduction)
 
-Modern feature-level reproduction of a Bio-Z blood-pressure estimation pipeline.
+A modern reproduction of a published Bio-Z blood-pressure estimation workflow.
 
-- Modernized a published research workflow for current pandas/scikit-learn versions.
-- Reproduced subject-specific AdaBoost regression experiments for SBP/DBP from pre-extracted Bio-Z features.
-- Compared faithful preprocessing with a safer train-only imputation variant to analyze possible data leakage.
+- Reproduces subject-specific AdaBoost experiments from public data and code
+- Compares the original preprocessing path with train-only imputation
+- Keeps experiment settings, metrics, predictions, and figures reproducible
 
-**Tech:** Python, pandas, scikit-learn, AdaBoost, experiment design, model evaluation
+**Python · pandas · scikit-learn · experiment design**
 
-## Currently Building
+## Current work
 
-### Recommender System Lab
+- Multicore scheduling and graph partitioning for NPU operation DAGs
+- Research software for literature, experimental data, provenance, and reviewable analysis
+- Quantitative alpha research workflows and experiment management
 
-An end-to-end recommendation project covering retrieval, ranking, offline evaluation, and lightweight serving.
+## What I care about
 
-- Popularity, ItemCF, matrix factorization, two-tower retrieval, and ranking baselines
-- Metrics: Recall@K, NDCG@K, MAP, AUC, coverage, diversity
-- Demo: query a user and return Top-K recommendations with recall source and ranking score
+I prefer projects where the interesting part is not only training a model, but making the full workflow testable and reproducible: data preparation, evaluation, failure cases, and the software around the algorithm.
 
-## Looking For
-
-我希望参与推荐、搜索、广告、风控、数据挖掘等方向的算法实习，尤其喜欢 **模型 + 数据 + 工程落地** 结合紧密的工作。
-
-## Contact
-
-- GitHub: [@zitai030302-tech](https://github.com/zitai030302-tech)
+I am currently preparing for internship and new-grad roles related to AI/ML engineering, algorithm engineering, AI infrastructure, quantitative research, and IC design automation.
