@@ -6,16 +6,15 @@ I mainly work with Python, experimental data, and small research systems. Recent
 
 ## Public projects
 
+- [FlexResearch](https://github.com/zitai030302-tech/flexresearch-workbench) — a local workspace for literature, CSV analysis, experiment records, and evidence provenance. Includes an isolated offline demo and deterministic Agent evaluation.
+- [NPU Scheduling Engine](https://github.com/zitai030302-tech/npu-scheduling-engine) — sparse operation DAG partitioning and multicore scheduling, with synthetic benchmarks and schedule visualizations. Derived from a team modeling project.
 - [QuantDesk](https://github.com/zitai030302-tech/quantdesk) — strategy backtests, paper execution, risk checks, and SQLite records.
 - [AlphaResearchLab](https://github.com/zitai030302-tech/quantdesk/tree/main/research/alpha_lab) — an offline factor-research module within QuantDesk. Restricted expressions, delayed evaluation, correlation checks, and an experiment ledger.
 - [Graphene BP Reproduction](https://github.com/zitai030302-tech/graphene-bp-reproduction) — a feature-level Bio-Z blood-pressure pipeline, with preprocessing checks and a separate subject-generalization benchmark.
 
 Each project includes a small local example and automated checks. Generated-data results are labelled as fixtures.
 
-## Research projects
-
-- **FlexResearch**: a local workspace for literature, CSV analysis, experiment records, and evidence provenance. A clean source snapshot and isolated offline demo are prepared; the source repository is currently private.
-- **NPU scheduling**: sparse operation DAGs, graph partitioning, and multicore scheduling from a team modeling project. A standalone synthetic showcase is prepared; the original research archive is private.
+The FlexResearch and NPU repositories above are clean source snapshots. Original research archives remain private.
 
 I also use WorldQuant BRAIN for alpha research and have reached Gold. Public research tooling is kept separate from platform-specific expressions and account records.
 
